@@ -1,7 +1,8 @@
 
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Addstudent from './pages/Addstudent'
+import AddStudents from './pages/AddStudents'
+
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
      <Routes>
-      <Route path='/'element={<Addstudent/>}/>
+      <Route path='/'element={<AddStudents/>}/>
      </Routes>
    
     

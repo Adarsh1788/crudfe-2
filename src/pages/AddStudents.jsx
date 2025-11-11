@@ -1,11 +1,14 @@
+import React from "react";
 import { useEffect, useState } from "react";
-import { createData, deleteData, editDataa,  getData } from "../services/allApi";
+
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import { createData, deleteData, editDataa, getData } from "../services/allApiss";
 
 
-const Addstudent = () => {
-  const [inputvalue, setinputvalue] = useState({
+
+const AddStudents = () => {
+      const [inputvalue, setinputvalue] = useState({
     name: "",
     course: "",
     grade: "",
@@ -62,7 +65,6 @@ const Addstudent = () => {
     showStudentdetails();
     setShow(false);
   };
-
   return (
     <>
       <div id="firstbox" className="py-3 mx-5 mt-5">
@@ -187,4 +189,4 @@ const Addstudent = () => {
   );
 };
 
-export default Addstudent;
+export default AddStudents;
