@@ -1,0 +1,26 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(245, 234, 221);
+
+}
+#firstbox {
+border: 2px solid brown;
+
+}
+#input {
+  border: 2px solid brown;
+  text-align: center;
+  padding: 5px;
+  
+}
+#heading{
+    background-color: beige;
+}
+#secondbox {
+  background-color: beige;
+   border: 2px solid brown;
+}
