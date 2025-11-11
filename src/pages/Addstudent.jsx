@@ -178,7 +178,7 @@ const Addstudent = () => {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={editDataa}>
+          <Button variant="primary" onClick={oneditDataa}>
             Save Changes
           </Button>
         </Modal.Footer>
