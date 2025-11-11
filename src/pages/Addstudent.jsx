@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { createData, deleteData, editDataa, getData } from "../services/AllApi";
+import { createData, deleteData, editDataa,  getData } from "../services/AllApi";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+
 
 const Addstudent = () => {
   const [inputvalue, setinputvalue] = useState({
@@ -50,7 +51,7 @@ const Addstudent = () => {
     setShow(true);
   };
 
-  const editDataa = async () => {
+  const oneditDataa = async () => {
     let reqBody = {
       name: editData.name,
       course: editData.course,
