@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { createData, deleteData, editDataa,  getData } from "../services/AllApi";
+import { createData, deleteData, editDataa,  getData } from "../services/allApi";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
